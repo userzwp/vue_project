@@ -59,7 +59,7 @@ export default {
         "145":"iconfont icon-baobiao"
       },
       isCollapse:false,
-      isActive:""
+      isActive:"/users"
     }
   },
   methods:{
@@ -85,6 +85,9 @@ export default {
   created(){
     this.getMenuList()
     this.isActive = sessionStorage.getItem("isActive")
+  },
+  activated(){
+
   }
 }
 </script>
