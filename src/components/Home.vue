@@ -5,7 +5,7 @@
        <img src="../assets/heima.png">
         <span> 电商后台管理系统</span>
     </div>
-    <el-button type="info" @click="loginout">退出</el-button> 
+    <el-button type="info" @click="loginout" class="tuichu">退出</el-button> 
   </el-header>
 
   <el-container>
@@ -134,6 +134,9 @@ export default {
    }
    .el-main{
         background-color: #eaedf1;
+   }
+   .tuichu{
+     margin-right: 25px;
    }
  
 </style>
